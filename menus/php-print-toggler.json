@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "PHP HIDE PRINTS",
+        "command": "php-print-toggler:hide"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "php-print-toggler",
+          "submenu": [
+            {
+              "label": "Hide",
+              "command": "php-print-toggler:hide"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
