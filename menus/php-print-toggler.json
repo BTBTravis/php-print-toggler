@@ -4,7 +4,12 @@
       {
         "label": "PHP HIDE PRINTS",
         "command": "php-print-toggler:hide"
+      },
+      {
+        "label": "PHP SHOW PRINTS",
+        "command": "php-print-toggler:show"
       }
+
     ]
   },
   "menu": [
@@ -17,7 +22,13 @@
             {
               "label": "Hide",
               "command": "php-print-toggler:hide"
+            },
+            {
+              "label": "Show",
+              "command": "php-print-toggler:show"
             }
+
+
           ]
         }
       ]

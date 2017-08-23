@@ -1,12 +1,13 @@
 {
   "name": "php-print-toggler",
   "main": "./lib/php-print-toggler",
-  "version": "0.0.0",
-  "description": "A short description of your package",
+  "version": "0.0.1",
+  "description": "A Atom Package to show and hide php print commands in your code",
   "keywords": [
   ],
   "activationCommands": {
-    "atom-workspace": "php-print-toggler:hide"
+    "atom-workspace": "php-print-toggler:hide",
+    "atom-workspace": "php-print-toggler:show"
   },
   "repository": "https://github.com/atom/php-print-toggler",
   "license": "MIT",
